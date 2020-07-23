@@ -11,9 +11,8 @@ Homestead.yaml
 npm-debug.log
 yarn-error.log
 
-
-# Created by https://www.toptal.com/developers/gitignore/api/vim,tags,macos
-# Edit at https://www.toptal.com/developers/gitignore?templates=vim,tags,macos
+# Created by https://www.toptal.com/developers/gitignore/api/vagrant,macos,vim,tags,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=vagrant,macos,vim,tags,visualstudiocode
 
 ### macOS ###
 # General
@@ -62,6 +61,16 @@ cscope.in.out
 cscope.po.out
 
 
+### Vagrant ###
+# General
+.vagrant/
+
+# Log files (if you are creating logs in debug mode, uncomment this)
+# *.log
+
+### Vagrant Patch ###
+*.box
+
 ### Vim ###
 # Swap
 [._]*.s[a-v][a-z]
@@ -82,5 +91,16 @@ Sessionx.vim
 # Persistent undo
 [._]*.un~
 
-# End of https://www.toptal.com/developers/gitignore/api/vim,tags,macos]]]]]]]]]]']]])
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
 
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+
+# End of https://www.toptal.com/developers/gitignore/api/vagrant,macos,vim,tags,visualstudiocode
